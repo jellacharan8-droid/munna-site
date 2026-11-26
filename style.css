@@ -144,17 +144,24 @@ h2::after{content:"";display:block;width:64px;height:5px;margin-top:.6rem;border
 .bubbles span{position:absolute;bottom:-30px;border-radius:50%;
   background:radial-gradient(circle at 32% 30%,rgba(255,255,255,.85) 0 12%,rgba(46,98,190,.55) 30%,rgba(10,40,110,.75) 100%);
   box-shadow:0 0 6px rgba(10,40,110,.25);opacity:0;animation:bubble linear infinite}
-.bubbles span:nth-child(1){left:4%;width:11px;height:11px;animation-duration:24s;animation-delay:1s}
-.bubbles span:nth-child(2){left:12%;width:8px;height:8px;animation-duration:30s;animation-delay:9s}
-.bubbles span:nth-child(3){left:26%;width:14px;height:14px;animation-duration:27s;animation-delay:5s}
-.bubbles span:nth-child(4){left:36%;width:9px;height:9px;animation-duration:33s;animation-delay:14s}
-.bubbles span:nth-child(5){left:48%;width:12px;height:12px;animation-duration:25s;animation-delay:3s}
-.bubbles span:nth-child(6){left:60%;width:8px;height:8px;animation-duration:34s;animation-delay:18s}
-.bubbles span:nth-child(7){left:72%;width:13px;height:13px;animation-duration:28s;animation-delay:7s}
-.bubbles span:nth-child(8){left:82%;width:10px;height:10px;animation-duration:31s;animation-delay:12s}
-.bubbles span:nth-child(9){left:91%;width:12px;height:12px;animation-duration:26s;animation-delay:2s}
-.bubbles span:nth-child(10){left:97%;width:8px;height:8px;animation-duration:36s;animation-delay:21s}
-.bubbles span:nth-child(11){left:55%;width:7px;height:7px;animation-duration:38s;animation-delay:25s}
+.bubbles span:nth-child(1){left:6%;width:10px;height:10px;animation-duration:26.0s;animation-delay:2.0s}
+.bubbles span:nth-child(2){left:7.6%;width:7px;height:7px;animation-duration:27.3s;animation-delay:2.9s}
+.bubbles span:nth-child(3){left:4.8%;width:12px;height:12px;animation-duration:28.6s;animation-delay:3.8s}
+.bubbles span:nth-child(4){left:8.4%;width:8px;height:8px;animation-duration:29.9s;animation-delay:4.7s}
+.bubbles span:nth-child(5){left:28%;width:9px;height:9px;animation-duration:30.0s;animation-delay:9.0s}
+.bubbles span:nth-child(6){left:29.4%;width:12px;height:12px;animation-duration:31.3s;animation-delay:9.9s}
+.bubbles span:nth-child(7){left:26.7%;width:7px;height:7px;animation-duration:32.6s;animation-delay:10.8s}
+.bubbles span:nth-child(8){left:52%;width:11px;height:11px;animation-duration:28.0s;animation-delay:5.0s}
+.bubbles span:nth-child(9){left:53.5%;width:7px;height:7px;animation-duration:29.3s;animation-delay:5.9s}
+.bubbles span:nth-child(10){left:50.6%;width:9px;height:9px;animation-duration:30.6s;animation-delay:6.8s}
+.bubbles span:nth-child(11){left:54.2%;width:12px;height:12px;animation-duration:31.9s;animation-delay:7.7s}
+.bubbles span:nth-child(12){left:74%;width:8px;height:8px;animation-duration:32.0s;animation-delay:14.0s}
+.bubbles span:nth-child(13){left:75.3%;width:11px;height:11px;animation-duration:33.3s;animation-delay:14.9s}
+.bubbles span:nth-child(14){left:72.8%;width:7px;height:7px;animation-duration:34.6s;animation-delay:15.8s}
+.bubbles span:nth-child(15){left:92%;width:12px;height:12px;animation-duration:27.0s;animation-delay:3.0s}
+.bubbles span:nth-child(16){left:93.5%;width:8px;height:8px;animation-duration:28.3s;animation-delay:3.9s}
+.bubbles span:nth-child(17){left:90.7%;width:10px;height:10px;animation-duration:29.6s;animation-delay:4.8s}
+.bubbles span:nth-child(18){left:94.3%;width:7px;height:7px;animation-duration:30.9s;animation-delay:5.7s}
 @keyframes bubble{
   0%{transform:translate(0,0);opacity:0}
   10%{opacity:.85}
