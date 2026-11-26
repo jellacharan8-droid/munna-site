@@ -1,6 +1,6 @@
 :root{
-  --ink:#10192e; --paper:#f3f6fb; --blueprint:#1d3fbb; --marigold:#ffc233;
-  --mist:#dfe6f4; --muted:#26324f; --white:#ffffff;
+  --ink:#0a1f3d; --paper:#eef7f5; --blueprint:#1456d6; --marigold:#2ed18a;
+  --mist:#d3ece4; --muted:#1d3550; --white:#ffffff;
   --display:"Syne","Trebuchet MS",Verdana,sans-serif;
   --body:"Instrument Sans","Segoe UI",Helvetica,Arial,sans-serif;
   --mono:"JetBrains Mono",Consolas,"Courier New",monospace;
@@ -9,9 +9,8 @@
 html{scroll-behavior:smooth;scroll-padding-top:72px}
 body{font-family:var(--body);color:var(--ink);line-height:1.7;font-size:1.12rem;font-weight:500;
   background-color:var(--paper);
-  background-image:linear-gradient(var(--mist) 1px,transparent 1px),linear-gradient(90deg,var(--mist) 1px,transparent 1px);
-  background-size:32px 32px}
-a{color:#14308f;font-weight:700}
+  }
+a{color:#0d3fa8;font-weight:700}
 a:focus-visible,.btn:focus-visible{outline:3px solid var(--marigold);outline-offset:3px}
 .wrap{max-width:1040px;margin:0 auto;padding:0 1.5rem}
 
